@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Automation</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_email">Email</string>
+    <string name="string_password">Password</string>
+    <string name="password">Password</string>
+    <string name="string_confirm_password">Confirm Password</string>
+    <string name="string_lastname">Lastname</string>
+    <string name="string_firstname">Firstname</string>
+    <string name="string_register">Register</string>
+    <string name="string_login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_update">Update</string>
+    <string name="string_run">Run</string>
+    <string name="valve_1">Valve 1</string>
+    <string name="valve_2">Valve 2</string>
+    <string name="valve_3">Valve 3</string>
+    <string name="valve_4">Valve 4</string>
+    <string name="manual">Manual</string>
+    <string name="local_distant">Local/Distant</string>
+    <string name="button_valve_1">Button valve 1</string>
+    <string name="button_valve_2">Button valve 2</string>
+    <string name="button_valve_3">Button valve 3</string>
+    <string name="button_valve_4">Button valve 4</string>
+    <string name="liquid_level">Liquid level</string>
+    <string name="pilot_word">Pilot Word</string>
+    <string name="plc">Plc</string>
+    <string name="registration">Registration</string>
+</resources>

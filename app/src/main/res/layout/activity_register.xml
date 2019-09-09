@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/et_register_lastname"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="@string/string_lastname"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/et_register_firstname"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="@string/string_firstname"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/et_register_email"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="@string/string_email"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textWebEmailAddress"/>
+        <EditText
+            android:id="@+id/et_register_password"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="@string/string_password"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/et_register_confirmPassword"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="@string/string_confirm_password"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btn_register_register"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="@string/string_register"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:onClick="OnClickRegisterManager"/>
+
+        <Button
+            android:id="@+id/btn_register_update"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="@string/string_update"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:onClick="OnClickUpdateManager"/>
+    </LinearLayout>
+</ScrollView>

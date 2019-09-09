@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/et_login_email"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:maxLines="1"
+            android:inputType="textWebEmailAddress"
+            android:hint="@string/string_email"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:hint="@string/string_password"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="@string/string_login"
+            android:layout_marginTop="30dp"
+            android:onClick="OnClickLoginManager"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"/>
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="@string/registration"
+            android:layout_marginTop="30dp"
+            android:onClick="OnClickRegisterManager"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"/>
+
+    </LinearLayout>
+</ScrollView>
